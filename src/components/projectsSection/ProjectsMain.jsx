@@ -5,18 +5,18 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Vacation of Africa",
-    year: "Mar2022",
+    name: "Movieflix",
+    year: "Mar 2024",
     align: "right",
     image: "../../public/images/website-img-1.jpg",
-    link: "#",
+    link: "https://movieflix-rho.vercel.app",
   },
   {
-    name: "Moola App",
-    year: "Sept2022",
+    name: "Khan Acadmey Clone",
+    year: "jan 2025",
     align: "left",
     image: "../../public/images/website-img-2.webp",
-    link: "#",
+    link: "https://khan-acadmey-clone.netlify.app",
   },
   {
     name: "Tourzania",
@@ -54,6 +54,7 @@ const ProjectsMain = () => {
               year={project.year}
               align={project.align}
               image={project.image}
+              link={project.link}
             />
           );
         })}
